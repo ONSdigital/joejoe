@@ -1,0 +1,10 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "$ONSdigital/$joejoe"
+    }
+  ],
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s"
+}
