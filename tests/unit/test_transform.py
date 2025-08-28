@@ -2,11 +2,11 @@ import unittest
 
 import pandas as pd
 
-from $joejoe.transform import apply_business_rules
+from joejoe.transform import apply_business_rules
 
 
 class TestTransformData(unittest.TestCase):
-    def test_transform_data(self):
+    def test_transform_data(self) -> None:
         # Sample input data
         input_data = pd.DataFrame(
             [
